@@ -19,7 +19,7 @@ if game=="Y":
 
 
         if a < choice:
-            print("It's Greater!!" ,"Chances left :{}".format(attempts-count))1
+            print("It's Greater!!" ,"Chances left :{}".format(attempts-count))
         elif choice<a:
             print("Its Lower! Chances left :",attempts-count)
         elif a==choice:
